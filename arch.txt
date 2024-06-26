@@ -1,10 +1,10 @@
-32 Bit Processor
+8 Bit Processor
 
 Single Data Value Represented in 32 Bits as shown:
-0000 0000 0000 0000 0000 0000 0000 0000 
+0000 0000
 
 Instruction Set:
-[Type: LOAD] [Argument 1: Register referenced] [Argument 2: Value to be stored] {ID: 0 Bin=>0000 0000 0000 0000 0000 0000 0000 0000}
+[Type: LOAD] [Argument 1: Register referenced] [Argument 2: Value to be stored] {ID: 0 Bin=>0000 0000}
 
 
 
@@ -17,8 +17,8 @@ Instruction Set:
 Typical Instruction Example:
 LOAD 0 32
 In Binary can be written as:
-0000 0000 0000 0000 0000 0000 0000 0000 => LOAD 
-0000 0000 0000 0000 0000 0000 0000 0000 => REGISTER 0
-0000 0000 0000 0000 0000 0000 0010 0000 => VALUE 32
+0000 0000 => LOAD 
+0000 0000 => REGISTER 0
+0010 0000 => VALUE 32
 OR SIMPLY:
-0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0010 0000
+0000 0000 , 0000 0000 , 0010 0000
